@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Lirik Lagu</title>
+</head>
+
+<body class="bg-black overflow-hidden">
+  <div class=" relative">
+    <div class="fixed inset-0 gradient-bg opacity-90"></div>
+    <div class="flex justify-center relative mt-40 z-[999] w-[15rem] items-center mx-auto p-8">
+      <div class="container mb-10">
+        <div class="plate">
+          <div class="black">
+            <div class="border">
+              <div class="white">
+                <div class="center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player">
+          <div class="rect"></div>
+          <div class="circ"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="relative min-h-screen -mt-96 flex items-center justify-center ">
+
+
+      <div class="card  w-[35rem] pt-36 ">
+        <ul class="wave-menu">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <div class="lyrics space-y-6 text-lg    mt-8">
+          <p id="root" style="--line-index: 1"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
